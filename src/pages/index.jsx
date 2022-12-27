@@ -1,7 +1,7 @@
 import React from "react";
-import Index from "./pages/index.jsx";
+
 function App() {
-  return <Index />;
+  return <span>Hello</span>;
 }
 
 export default App;
