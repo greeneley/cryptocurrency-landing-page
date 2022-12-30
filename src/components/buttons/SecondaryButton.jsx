@@ -1,14 +1,14 @@
 import React from "react";
 import classNames from "classnames";
 
-export default function PrimaryButton({
+export default function SecondaryButton({
   children,
   className,
   onClick,
   ...props
 }) {
   const cx = classNames([
-    "bg-primary text-white rounded-full px-6 py-4",
+    "border border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300 rounded-full px-10 py-4",
     className,
   ]);
   return (

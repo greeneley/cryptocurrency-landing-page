@@ -1,7 +1,5 @@
 import React from "react";
 import Index from "./pages/index.jsx";
-function App() {
+export default function App() {
   return <Index />;
 }
-
-export default App;
