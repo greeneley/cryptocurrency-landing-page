@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../images/logo.svg";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
-
+import { FiChevronDown } from "react-icons/fi";
 export default function Navbar() {
   return (
     <nav className="bg-primary bg-opacity-5">
@@ -27,6 +27,7 @@ export default function Navbar() {
             </a>
             <a href="#" className="mx-6 hover:text-primary">
               Products
+              <FiChevronDown className="inline ml-2" />
             </a>
           </div>
         </div>
