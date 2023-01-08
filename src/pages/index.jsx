@@ -5,6 +5,7 @@ import CryptocurrencySection from "../components/sections/CryptocurrencySection.
 import Footer from "../components/Footer/Footer.jsx";
 import BuyAndTradeSection from "../components/sections/BuyAndTradeSection.jsx";
 import PartnerSection from "../components/sections/PartnerSection.jsx";
+import CreditCard from "../components/sections/CreditCard.jsx";
 export default function Index() {
   return (
     <Layout>
@@ -12,6 +13,7 @@ export default function Index() {
       <CryptocurrencySection />
       <BuyAndTradeSection />
       <PartnerSection />
+      <CreditCard />
       <Footer />
     </Layout>
   );
