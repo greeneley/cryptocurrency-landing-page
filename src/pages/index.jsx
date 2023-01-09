@@ -8,6 +8,8 @@ import PartnerSection from "../components/sections/PartnerSection.jsx";
 import CreditCard from "../components/sections/CreditCard.jsx";
 import TradingTools from "../components/sections/TradingTools";
 import IndustryLeading from "../components/sections/IndustryLeading.jsx";
+import Steps from "../components/sections/Steps.jsx";
+import Faq from "../components/sections/Faq.jsx";
 export default function Index() {
   return (
     <Layout>
@@ -18,6 +20,8 @@ export default function Index() {
       <CreditCard />
       <TradingTools />
       <IndustryLeading />
+      <Steps />
+      <Faq />
       <Footer />
     </Layout>
   );
