@@ -63,7 +63,7 @@ function BuyAndTradeSection(props) {
           </div>
           <PrimaryButton className="w-full">Buy Now</PrimaryButton>
         </div>
-        <div>
+        <div className="motion-safe:animate-fadeIn">
           <img src={buyIcon} alt="" />
         </div>
       </div>

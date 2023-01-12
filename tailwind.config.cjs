@@ -3,6 +3,18 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}", "./layout.html"],
   theme: {
     extend: {
+      animation: {
+        fadeIn: "fadeIn 2s ease-in",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0},
+          "100%": { opacity: 1 }
+        }
+      },
+      variants: {
+        animation: ['motion-safe']
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"]
       },
