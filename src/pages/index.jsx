@@ -22,7 +22,6 @@ export default function Index() {
       <IndustryLeading />
       <Steps />
       <Faq />
-      <Footer />
     </Layout>
   );
 }
