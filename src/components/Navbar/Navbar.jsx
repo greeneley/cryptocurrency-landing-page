@@ -3,10 +3,24 @@ import Logo from "../../images/logo.svg";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
 import { FiChevronDown } from "react-icons/fi";
+import { useScrollPosition } from "../../hooks/hooks-internal.tsx";
 export default function Navbar() {
+  // Change navigation on scroll: https://www.skillthrive.com/hunter/posts/change-nav-on-scroll
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(" ");
+  }
+  const scrollPosition = useScrollPosition();
+
   return (
-    <nav className="bg-primary bg-opacity-5 sticky top-0">
-      <div className="sticky container mx-auto top-0 flex py-8 justify-between items-center w-5/6">
+    <nav
+      className={classNames(
+        scrollPosition > 0
+          ? "bg-white shadow py-3"
+          : "bg-primary bg-opacity-5 py-8",
+        "sticky top-0 transition-all duration-700"
+      )}
+    >
+      <div className="container mx-auto top-0 flex justify-between items-center w-5/6">
         <div className="flex items-center">
           <img src={Logo} className="mr-6" alt="Neva" />
           <div className="flex">
