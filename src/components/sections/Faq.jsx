@@ -54,10 +54,10 @@ function Faq(props) {
         </div>
       </div>
       <p className="text-center">
-        <button className="border rounded-2xl px-3 py-4 font-light bg-gray opacity-10">
-          <span className="text-black">Back to top</span>{" "}
-          <AiOutlineArrowUp className="inline" />
-        </button>
+        <SecondaryButton className="rounded-2xl bg-[#FAFAFA] border-neutral-300 text-gray hover:text-white">
+          <span>Back to top</span>
+          <AiOutlineArrowUp className="inline ml-3" />
+        </SecondaryButton>
       </p>
     </div>
   );
