@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer.jsx";
 
 export default function layout({ children }) {
   return (
-    <div>
+    <div className="relative">
       <Navbar />
       {children}
       <Footer />

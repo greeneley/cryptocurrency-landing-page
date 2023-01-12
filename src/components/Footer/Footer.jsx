@@ -7,7 +7,7 @@ function Footer(props) {
     <footer>
       <div className="container mx-auto border-y border-lightgray p-6 w-5/6">
         <div className="grid grid-cols-4">
-          <div className="flex justify-between p-6 border-r border-lightgray">
+          <div className="flex justify-between p-10 border-r border-lightgray">
             <div>
               <img src={logo} alt="" />
             </div>
@@ -39,7 +39,7 @@ function Footer(props) {
               </li>
             </ul>
           </div>
-          <div className="p-6 flex justify-center border-r border-lightgray">
+          <div className="p-10 flex justify-center border-r border-lightgray">
             <ul>
               <li className="mb-4">
                 <a href="/" className="text-gray">
@@ -68,7 +68,7 @@ function Footer(props) {
               </li>
             </ul>
           </div>
-          <div className="p-6 flex justify-center border-r border-lightgray">
+          <div className="p-10 flex justify-center border-r border-lightgray">
             <ul>
               <li className="mb-4">
                 <a href="/" className="text-gray">
@@ -97,7 +97,7 @@ function Footer(props) {
               </li>
             </ul>
           </div>
-          <div className="p-6">
+          <div className="p-10">
             <span className="text-gray">Newsletter</span>
             <p className="text-gray font-thin">
               Never miss anything crypto when you're on the go

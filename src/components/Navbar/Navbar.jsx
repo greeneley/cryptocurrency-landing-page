@@ -5,8 +5,8 @@ import SecondaryButton from "../buttons/SecondaryButton";
 import { FiChevronDown } from "react-icons/fi";
 export default function Navbar() {
   return (
-    <nav className="bg-primary bg-opacity-5">
-      <div className="sticky container mx-auto top-0 flex py-8 justify-center items-center w-5/6">
+    <nav className="bg-primary bg-opacity-5 sticky top-0">
+      <div className="sticky container mx-auto top-0 flex py-8 justify-between items-center w-5/6">
         <div className="flex items-center">
           <img src={Logo} className="mr-6" alt="Neva" />
           <div className="flex">

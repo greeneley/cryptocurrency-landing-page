@@ -12,7 +12,7 @@ function ListCoin({ title, more, data }) {
             props: { className: "inline-block mr-4 text-normal" },
           })}
         </span>
-        <a href={more} className="text-primary">
+        <a href={more} className="text-primary cursor-pointer">
           More <BsChevronRight className="inline ml-2" />
         </a>
       </div>
