@@ -29,8 +29,12 @@ yarn build
 yarn test
 ```
 
-## Contributor
-- Dicka Ismaji
+## Keywords
+
+- Detect scroll direction: [link](https://stackoverflow.com/questions/62497110/detect-scroll-direction-in-react-js)
+- Animate on Scroll: [link](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+- Intersection Observer API: [link](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+
 
 ## License
 
