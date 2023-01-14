@@ -35,7 +35,9 @@ yarn test
 - Animate on Scroll: [link](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 - Intersection Observer API: [link](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 
+## To do
 
+- Deploy domain 
 ## License
 
 Source code is under MIT license
