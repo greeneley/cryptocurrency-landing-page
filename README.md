@@ -10,6 +10,10 @@ Video tutorial: [Video](https://www.youtube.com/watch?v=H32g1ORCcdk&t=19s)
 
 Good Luck and enjoy this moment :D
 
+## DEMO
+
+[LINK](https://cryptolandingpage.fun/)
+
 ## How to start the web
 
 ```bash
