@@ -1,4 +1,5 @@
 # cryptocurrency-landing-page
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3dbd5cf0-f1f0-4f69-9867-46bfaec64a4b/deploy-status)](https://app.netlify.com/sites/adorable-bombolone-056ff5/deploys)
 
 Web landingpage of cryptocurrency site, built with React and Tailwindcss.
 
