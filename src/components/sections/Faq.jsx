@@ -2,15 +2,16 @@ import React from "react";
 import faq from "../../images/illustrations/faq.png";
 import { BsChevronDown, BsChevronUp } from "react-icons/bs";
 import SecondaryButton from "../buttons/SecondaryButton.jsx";
-import { FiChevronDown } from "react-icons/fi";
 import { AiOutlineArrowUp } from "react-icons/all.js";
-
+import Fade from "react-reveal/Fade";
 function Faq(props) {
   return (
     <div className="container mx-auto my-10 justify-center">
       <div className="grid grid-cols-2 items-center my-36">
         <div className="ml-14 text-center">
-          <img src={faq} alt="" />
+          <Fade bottom>
+            <img src={faq} alt="" />
+          </Fade>
         </div>
         <div className="w-5/6">
           <p className="text-primary font-extralight">SUPPORT</p>

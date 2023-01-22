@@ -3,6 +3,8 @@ import signUp from "../../images/illustrations/signup.png";
 import fund from "../../images/illustrations/wallet.png";
 import buy from "../../images/illustrations/okay.png";
 import arrow from "../../images/arrow.svg";
+import Fade from "react-reveal/Fade";
+
 function Steps(props) {
   return (
     <div className="px-6">
@@ -15,38 +17,60 @@ function Steps(props) {
           </div>
           <div className="my-10">
             <div className="flex text-center justify-center">
-              <div className="w-[23em] text-center justify-center">
-                <img src={signUp} alt="" className="inline-block mb-[10px]" />
-                <div className="text-center">
-                  <h3 className="font-medium mb-[15px]">Sign Up</h3>
-                  <p className="font-light inline-block w-auto text-center">
-                    Buy Bitcoin or Ethereum, then securely store it in your
-                    Wallet or send it on easily to friends
-                  </p>
+              <Fade bottom delay={0}>
+                <div className="w-[23em] text-center justify-center">
+                  <img
+                    src={signUp}
+                    alt=""
+                    className="inline-block mb-[10px] hover:scale-105 hover:-translate-y-6 transition-all duration-300"
+                  />
+                  <div className="text-center">
+                    <h3 className="font-medium mb-[15px]">Sign Up</h3>
+                    <p className="font-light inline-block w-auto text-center">
+                      Buy Bitcoin or Ethereum, then securely store it in your
+                      Wallet or send it on easily to friends
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <img src={arrow} alt="" className="-mx-4" />
-              <div className="w-[23em] text-center justify-center">
-                <img src={fund} alt="" className="inline-block mb-[10px]" />
-                <div className="text-center">
-                  <h3 className="font-medium mb-[15px]">Fund</h3>
-                  <p className="font-light inline-block w-auto text-center">
-                    Choose your preferred payment method such as bank transfer
-                    or credit card to top up your NEFA Wallet
-                  </p>
+              </Fade>
+              <Fade bottom delay={200}>
+                <img src={arrow} alt="" className="-mx-4" />
+              </Fade>
+              <Fade bottom delay={400}>
+                <div className="w-[23em] text-center justify-center">
+                  <img
+                    src={fund}
+                    alt=""
+                    className="inline-block mb-[10px] hover:scale-105 hover:-translate-y-6 transition-all duration-300"
+                  />
+                  <div className="text-center">
+                    <h3 className="font-medium mb-[15px]">Fund</h3>
+                    <p className="font-light inline-block w-auto text-center">
+                      Choose your preferred payment method such as bank transfer
+                      or credit card to top up your NEFA Wallet
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <img src={arrow} alt="" className="-mx-4" />
-              <div className="w-[23em] text-center justify-center">
-                <img src={buy} alt="" className="inline-block mb-[10px]" />
-                <div className="text-center">
-                  <h3 className="font-medium mb-[15px]">Buy Crypto</h3>
-                  <p className="font-light inline-block w-auto text-center">
-                    Sign up for your free NEFA Wallet on web, iOS or Android and
-                    follow our easy process to set up your profile
-                  </p>
+              </Fade>
+              <Fade bottom delay={600}>
+                <img src={arrow} alt="" className="-mx-4" />
+              </Fade>
+              <Fade bottom delay={800}>
+                <div className="w-[23em] text-center justify-center">
+                  <img
+                    src={buy}
+                    alt=""
+                    className="inline-block mb-[10px] hover:scale-105 hover:-translate-y-6 transition-all duration-300"
+                  />
+                  <div className="text-center">
+                    <h3 className="font-medium mb-[15px]">Buy Crypto</h3>
+                    <p className="font-light inline-block w-auto text-center">
+                      Sign up for your free NEFA Wallet on web, iOS or Android
+                      and follow our easy process to set up your profile
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </Fade>
             </div>
           </div>
         </div>
