@@ -2,12 +2,15 @@ import React from "react";
 import CreditCardImage from "../../images/illustrations/credit-card.png";
 import SecondaryButton from "../buttons/SecondaryButton";
 import { BsCheckCircleFill } from "react-icons/bs";
+import Fade from "react-reveal/Fade";
 function CreditCard(props) {
   return (
     <div className="container mx-auto my-10 justify-center">
       <div className="grid grid-cols-2 gap-10 items-center my-36">
         <div className="ml-14">
-          <img src={CreditCardImage} alt="" />
+          <Fade bottom>
+            <img src={CreditCardImage} alt="" />
+          </Fade>
         </div>
         <div className="ml-14">
           <h2 className="font-semibold text-3xl leading-normal">

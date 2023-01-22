@@ -1,13 +1,16 @@
 import React from "react";
 import BankImage from "../../images/illustrations/banks.png";
-import SecondaryButton from "../buttons/SecondaryButton";
 import { BsCheckCircleFill } from "react-icons/bs";
+import Fade from "react-reveal/Fade";
+
 function IndustryLeading(props) {
   return (
     <div className="container mx-auto my-10 justify-center">
       <div className="grid grid-cols-2 gap-10 items-center my-36">
         <div className="ml-14 text-center">
-          <img src={BankImage} alt="" />
+          <Fade bottom>
+            <img src={BankImage} alt="" />
+          </Fade>
         </div>
         <div className="ml-14 w-5/6">
           <h2 className="font-semibold text-3xl leading-normal">

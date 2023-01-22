@@ -2,8 +2,12 @@ import React from "react";
 import buyIcon from "../../images/illustrations/buy.png";
 import PrimaryButton from "../buttons/PrimaryButton";
 import { BsChevronDown } from "react-icons/bs";
+import { useScrollPosition } from "../../hooks/hooks-internal.jsx";
+import Fade from "react-reveal/Fade";
 
 function BuyAndTradeSection(props) {
+  const scrollPosition = useScrollPosition();
+
   return (
     <div className="container mx-auto py-28 flex items-center justify-center ">
       <div className="grid grid-cols-2 gap-10 flex items-center">
@@ -63,8 +67,10 @@ function BuyAndTradeSection(props) {
           </div>
           <PrimaryButton className="w-full">Buy Now</PrimaryButton>
         </div>
-        <div className="motion-safe:animate-fadeIn">
-          <img src={buyIcon} alt="" />
+        <div>
+          <Fade right>
+            <img src={buyIcon} alt="" />
+          </Fade>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import partner1 from "../../images/partners/partner1.png";
 import partner2 from "../../images/partners/partner2.png";
 import partner3 from "../../images/partners/partner3.png";
 import partner4 from "../../images/partners/partner4.png";
+import Fade from "react-reveal/Fade";
 function PartnerSection(props) {
   return (
     <div className="px-6">
@@ -18,10 +19,18 @@ function PartnerSection(props) {
           </div>
           <div className="my-10">
             <div className="flex justify-center gap-6">
-              <img src={partner1} alt="" />
-              <img src={partner2} alt="" />
-              <img src={partner3} alt="" />
-              <img src={partner4} alt="" />
+              <Fade bottom delay={0}>
+                <img src={partner1} alt="" />
+              </Fade>
+              <Fade bottom delay={200}>
+                <img src={partner2} alt="" />
+              </Fade>
+              <Fade bottom delay={400}>
+                <img src={partner3} alt="" />
+              </Fade>
+              <Fade bottom delay={600}>
+                <img src={partner4} alt="" />
+              </Fade>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import TradingToolsImage from "../../images/illustrations/tradingtools.png";
 import SecondaryButton from "../buttons/SecondaryButton.jsx";
-
+import Fade from "react-reveal/Fade";
 function TradingTools() {
   return (
     <div className="px-6">
@@ -42,7 +42,9 @@ function TradingTools() {
               </div>
             </div>
             <div className="ml-14">
-              <img src={TradingToolsImage} alt="" />
+              <Fade bottom>
+                <img src={TradingToolsImage} alt="" />
+              </Fade>
             </div>
           </div>
         </div>

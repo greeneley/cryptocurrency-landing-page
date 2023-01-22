@@ -3,14 +3,13 @@ import Logo from "../../images/logo.svg";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
 import { FiChevronDown } from "react-icons/fi";
-import { useScrollPosition } from "../../hooks/hooks-internal.tsx";
+import { useScrollPosition } from "../../hooks/hooks-internal.jsx";
 export default function Navbar() {
   // Change navigation on scroll: https://www.skillthrive.com/hunter/posts/change-nav-on-scroll
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
   const scrollPosition = useScrollPosition();
-
   return (
     <nav
       className={classNames(
