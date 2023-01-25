@@ -7,7 +7,7 @@ export default function layout({ children }) {
     <div className="relative">
       <Navbar />
       {children}
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }

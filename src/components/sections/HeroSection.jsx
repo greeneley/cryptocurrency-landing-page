@@ -6,7 +6,7 @@ import { FiChevronDown } from "react-icons/fi";
 function HeroSection(props) {
   return (
     <section className="bg-primary bg-opacity-5">
-      <div className="container mx-auto grid grid-cols-2 items-center w-5/6 h-[48em]">
+      <div className="container p-32 mx-auto grid grid-cols-2 items-center w-5/6 h-[48em]">
         <div className="flex items-center">
           <div>
             <p className="text-primary">SIGN UP TODAY</p>

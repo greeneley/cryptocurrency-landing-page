@@ -14,14 +14,14 @@ export default function Index() {
   return (
     <Layout>
       <HeroSection />
-      <CryptocurrencySection />
-      <BuyAndTradeSection />
-      <PartnerSection />
-      <CreditCard />
-      <TradingTools />
-      <IndustryLeading />
-      <Steps />
-      <Faq />
+      {/*<CryptocurrencySection />*/}
+      {/*<BuyAndTradeSection />*/}
+      {/*<PartnerSection />*/}
+      {/*<CreditCard />*/}
+      {/*<TradingTools />*/}
+      {/*<IndustryLeading />*/}
+      {/*<Steps />*/}
+      {/*<Faq />*/}
     </Layout>
   );
 }
